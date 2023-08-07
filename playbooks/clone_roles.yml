@@ -4,7 +4,7 @@
   hosts: all
   become: true
   vars:
-    git_repository: "https://github.com/MichalTomczakSE/Ansible_roles.git"
+    git_repository: "https://github.com/Nieuport/Ansible_roles.git"
     git_branch: "main"
   tasks:
     - name: Create a directory if it does not exist
